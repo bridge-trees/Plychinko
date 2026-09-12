@@ -3,7 +3,7 @@ using UnityEngine;
 public class Game : MonoBehaviour
 {
     public CanvasGroup CanvasGroup;
-    private bool isGameStared = false;
+    private static bool isGameStarted = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,6 +17,11 @@ public class Game : MonoBehaviour
        // hide the start screen
        CanvasGroupDisplayer.Hide(CanvasGroup);
        // remember that the game has started
-       isGameStared = true;
+       isGameStarted = true;
+    }
+
+    public static bool IsGameStarted()
+    {
+        return isGameStarted;
     }
 }
