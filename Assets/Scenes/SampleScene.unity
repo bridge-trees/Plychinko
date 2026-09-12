@@ -702,6 +702,7 @@ GameObject:
   - component: {fileID: 302691581}
   - component: {fileID: 302691580}
   - component: {fileID: 302691582}
+  - component: {fileID: 302691583}
   m_Layer: 0
   m_Name: WallBottom
   m_TagString: Untagged
@@ -830,6 +831,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &302691583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302691579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138cc674ddff74b4aa354d133f07fae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallDestroyer
 --- !u!1001 &316949506
 PrefabInstance:
   m_ObjectHideFlags: 0
