@@ -8,6 +8,7 @@ public class Game : MonoBehaviour
     void Start()
     {
         // show the start screen
+        isGameStarted = false;
         CanvasGroupDisplayer.Show(CanvasGroup);
     }
 
